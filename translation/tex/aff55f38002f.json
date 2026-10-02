@@ -1,0 +1,335 @@
+{
+ "hash": "aff55f38002f",
+ "items": [
+  {
+   "box": [
+    1,
+    0,
+    77,
+    14
+   ],
+   "ko": "오리올스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    17,
+    89,
+    31
+   ],
+   "ko": "레드삭스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    33,
+    63,
+    46
+   ],
+   "ko": "양키스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    48,
+    39,
+    62
+   ],
+   "ko": "레이스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    64,
+    90,
+    78
+   ],
+   "ko": "블루제이스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    80,
+    102,
+    95
+   ],
+   "ko": "화이트삭스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    104,
+    80,
+    143,
+    95
+   ],
+   "ko": "레즈",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    96,
+    89,
+    111
+   ],
+   "ko": "인디언스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    112,
+    63,
+    126
+   ],
+   "ko": "타이거스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    128,
+    64,
+    142
+   ],
+   "ko": "로열스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    144,
+    52,
+    158
+   ],
+   "ko": "트윈스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    160,
+    63,
+    174
+   ],
+   "ko": "에인절스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    177,
+    89,
+    191
+   ],
+   "ko": "애슬레틱스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    192,
+    64,
+    206
+   ],
+   "ko": "매리너스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    207,
+    77,
+    223
+   ],
+   "ko": "레인저스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    224,
+    63,
+    238
+   ],
+   "ko": "브레이브스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    240,
+    64,
+    254
+   ],
+   "ko": "말린스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    0,
+    231,
+    15
+   ],
+   "ko": "다이아몬드백스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    17,
+    142,
+    31
+   ],
+   "ko": "메츠",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    32,
+    168,
+    47
+   ],
+   "ko": "필리스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    47,
+    181,
+    62
+   ],
+   "ko": "내셔널스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    63,
+    142,
+    78
+   ],
+   "ko": "컵스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    96,
+    168,
+    110
+   ],
+   "ko": "애스트로스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    112,
+    168,
+    126
+   ],
+   "ko": "브루어스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    128,
+    167,
+    142
+   ],
+   "ko": "파이리츠",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    144,
+    180,
+    158
+   ],
+   "ko": "카디널스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    160,
+    168,
+    175
+   ],
+   "ko": "로키스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    107,
+    176,
+    167,
+    190
+   ],
+   "ko": "다저스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    192,
+    155,
+    206
+   ],
+   "ko": "파드리스",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    105,
+    208,
+    180,
+    222
+   ],
+   "ko": "자이언츠",
+   "weight": "xbold",
+   "align": "left"
+  }
+ ]
+}

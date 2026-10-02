@@ -1,0 +1,291 @@
+{
+ "hash": "d428650ee506",
+ "items": [
+  {
+   "box": [
+    1,
+    0,
+    21,
+    21
+   ],
+   "ko": "유",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    24,
+    0,
+    42,
+    21
+   ],
+   "ko": "중",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    45,
+    0,
+    65,
+    21
+   ],
+   "ko": "포",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    67,
+    0,
+    87,
+    21
+   ],
+   "ko": "투",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    89,
+    0,
+    109,
+    21
+   ],
+   "ko": "1",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    1,
+    19,
+    20,
+    40
+   ],
+   "ko": "2",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    23,
+    19,
+    43,
+    40
+   ],
+   "ko": "3",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    45,
+    19,
+    65,
+    40
+   ],
+   "ko": "우",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    67,
+    19,
+    87,
+    40
+   ],
+   "ko": "좌",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    89,
+    19,
+    109,
+    40
+   ],
+   "ko": "외",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    0,
+    40,
+    18,
+    59
+   ],
+   "ko": "유",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    20,
+    40,
+    36,
+    59
+   ],
+   "ko": "중",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    38,
+    40,
+    56,
+    59
+   ],
+   "ko": "투",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    57,
+    40,
+    75,
+    59
+   ],
+   "ko": "포",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    76,
+    40,
+    94,
+    59
+   ],
+   "ko": "1",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    95,
+    40,
+    113,
+    59
+   ],
+   "ko": "2",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    0,
+    60,
+    18,
+    79
+   ],
+   "ko": "3",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    19,
+    60,
+    37,
+    79
+   ],
+   "ko": "우",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    38,
+    60,
+    56,
+    79
+   ],
+   "ko": "좌",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    57,
+    60,
+    75,
+    79
+   ],
+   "ko": "외",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    1,
+    77,
+    21,
+    99
+   ],
+   "ko": "선",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    24,
+    77,
+    42,
+    99
+   ],
+   "ko": "중",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    45,
+    77,
+    64,
+    99
+   ],
+   "ko": "마",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    66,
+    77,
+    84,
+    99
+   ],
+   "ko": "선",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    86,
+    77,
+    102,
+    99
+   ],
+   "ko": "중",
+   "weight": "heavy",
+   "nosnap": 1
+  },
+  {
+   "box": [
+    104,
+    77,
+    122,
+    99
+   ],
+   "ko": "마",
+   "weight": "heavy",
+   "nosnap": 1
+  }
+ ]
+}

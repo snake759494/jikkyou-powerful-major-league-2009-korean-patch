@@ -1,0 +1,304 @@
+{
+ "hash": "dd9c3c491479",
+ "items": [
+  {
+   "box": [
+    6,
+    74,
+    144,
+    94
+   ],
+   "ko": "월드 시리즈 우승",
+   "align": "left",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    203,
+    74,
+    221,
+    94
+   ],
+   "ko": "회",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    298,
+    74,
+    362,
+    94
+   ],
+   "ko": "년도 성적",
+   "align": "left",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    6,
+    99,
+    88,
+    119
+   ],
+   "ko": "리그 우승",
+   "align": "left",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    203,
+    99,
+    221,
+    119
+   ],
+   "ko": "회",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    401,
+    99,
+    420,
+    119
+   ],
+   "ko": "위",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    5,
+    124,
+    72,
+    144
+   ],
+   "ko": "지구 우승",
+   "align": "left",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    203,
+    124,
+    221,
+    144
+   ],
+   "ko": "회",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    335,
+    124,
+    354,
+    144
+   ],
+   "ko": "승",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    401,
+    124,
+    420,
+    144
+   ],
+   "ko": "패",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    6,
+    149,
+    98,
+    169
+   ],
+   "ko": "와일드카드",
+   "align": "left",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    203,
+    149,
+    221,
+    169
+   ],
+   "ko": "회",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  },
+  {
+   "box": [
+    322,
+    149,
+    354,
+    169
+   ],
+   "ko": "승률",
+   "align": "center",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ],
+   "t": 1,
+   "weight": "heavy",
+   "mode": "plate"
+  }
+ ]
+}

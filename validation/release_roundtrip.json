@@ -1,0 +1,11 @@
+{
+  "version": "v1.0",
+  "source_sha256": "452d333097a9fa25b260e4272e6ac5434561e9d9547fca6a05bcb66d9e3328e6",
+  "patch_sha256": "6fc3b99208a6230f40e79dd426cddaffa4a62aed4964267cffa444c2041a913f",
+  "decoded_sha256": "21dbfe67e83caad217044fef92aa78813912122974b6c30c957673af9acd9aac",
+  "decode_matches_build": true,
+  "application_tool": "tools/apply_release.py",
+  "python_syntax_check": true,
+  "translation_json_parse": true,
+  "runtime_verified": false
+}

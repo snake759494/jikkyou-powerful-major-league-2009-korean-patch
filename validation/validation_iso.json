@@ -1,0 +1,9 @@
+{
+  "changed_textures": 49,
+  "verified_references": 64,
+  "bounds": true,
+  "neighbour_preservation": true,
+  "palette_roundtrip": true,
+  "built_iso_verified": true,
+  "sprite_rectangles_disjoint": true
+}

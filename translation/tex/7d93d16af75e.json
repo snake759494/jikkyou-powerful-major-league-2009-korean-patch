@@ -1,0 +1,126 @@
+{
+ "hash": "7d93d16af75e",
+ "items": [
+  {
+   "box": [
+    2,
+    2,
+    25,
+    25
+   ],
+   "ko": "우",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    28,
+    25,
+    51
+   ],
+   "ko": "좌",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    55,
+    25,
+    77
+   ],
+   "ko": "중",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    81,
+    25,
+    104
+   ],
+   "ko": "2",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    107,
+    25,
+    130
+   ],
+   "ko": "유",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    134,
+    25,
+    156
+   ],
+   "ko": "3",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    160,
+    25,
+    182
+   ],
+   "ko": "1",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    2,
+    186,
+    25,
+    209
+   ],
+   "ko": "포",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    27,
+    28,
+    50,
+    51
+   ],
+   "ko": "주",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    27,
+    55,
+    50,
+    77
+   ],
+   "ko": "타",
+   "weight": "heavy",
+   "mode": "chip"
+  },
+  {
+   "box": [
+    27,
+    81,
+    50,
+    104
+   ],
+   "ko": "투",
+   "weight": "heavy",
+   "mode": "chip"
+  }
+ ]
+}

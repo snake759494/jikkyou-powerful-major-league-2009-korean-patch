@@ -1,0 +1,258 @@
+{
+ "hash": "ec6c490619fa",
+ "items": [
+  {
+   "box": [
+    1,
+    2,
+    65,
+    18
+   ],
+   "ko": "연간 일정표",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    24,
+    26,
+    40
+   ],
+   "ko": "지도",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    45,
+    70,
+    62
+   ],
+   "ko": "스케줄",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    68,
+    50,
+    84
+   ],
+   "ko": "어디로",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    90,
+    54,
+    106
+   ],
+   "ko": "설정 없음",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    112,
+    74,
+    128
+   ],
+   "ko": "선수 빼기",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    134,
+    113,
+    150
+   ],
+   "ko": "(길게) 취소",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    155,
+    59,
+    172
+   ],
+   "ko": "그룹화",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    178,
+    55,
+    194
+   ],
+   "ko": "일정 진행",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    200,
+    54,
+    216
+   ],
+   "ko": "대전 정보",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    222,
+    50,
+    238
+   ],
+   "ko": "정렬",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    244,
+    42,
+    260
+   ],
+   "ko": "전력 외",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    266,
+    53,
+    282
+   ],
+   "ko": "복수 선택",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    288,
+    62,
+    304
+   ],
+   "ko": "월 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    310,
+    66,
+    326
+   ],
+   "ko": "자릿수 이동",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    332,
+    53,
+    348
+   ],
+   "ko": "성장 보고",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    354,
+    26,
+    370
+   ],
+   "ko": "진행",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    376,
+    54,
+    392
+   ],
+   "ko": "고속 표시",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    398,
+    37,
+    414
+   ],
+   "ko": "이력",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    420,
+    62,
+    436
+   ],
+   "ko": "레벨 변경",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    442,
+    54,
+    458
+   ],
+   "ko": "현재 위치",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    463,
+    51,
+    480
+   ],
+   "ko": "스킵",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    485,
+    118,
+    502
+   ],
+   "ko": "포스트시즌 멤버 전환",
+   "weight": "bold",
+   "align": "left"
+  }
+ ]
+}

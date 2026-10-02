@@ -1,0 +1,16 @@
+{
+ "hash": "54dc2add8e83",
+ "items": [
+  {
+   "box": [
+    60,
+    1,
+    255,
+    31
+   ],
+   "ko": "체이스 필드",
+   "weight": "heavy",
+   "mode": "mask"
+  }
+ ]
+}

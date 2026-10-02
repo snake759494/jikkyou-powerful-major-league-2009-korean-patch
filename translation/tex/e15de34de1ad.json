@@ -1,0 +1,27 @@
+{
+ "hash": "e15de34de1ad",
+ "items": [
+  {
+   "box": [
+    88,
+    0,
+    124,
+    32
+   ],
+   "ko": "일",
+   "weight": "heavy",
+   "mode": "mask"
+  },
+  {
+   "box": [
+    134,
+    0,
+    170,
+    32
+   ],
+   "ko": "본",
+   "weight": "heavy",
+   "mode": "mask"
+  }
+ ]
+}

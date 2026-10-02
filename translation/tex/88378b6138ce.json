@@ -1,0 +1,258 @@
+{
+ "hash": "88378b6138ce",
+ "items": [
+  {
+   "box": [
+    2,
+    3,
+    27,
+    17
+   ],
+   "ko": "결정",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    25,
+    26,
+    39
+   ],
+   "ko": "뒤로",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    47,
+    27,
+    61
+   ],
+   "ko": "다음",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    69,
+    49,
+    83
+   ],
+   "ko": "선수 능력",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    91,
+    68,
+    105
+   ],
+   "ko": "커서 이동",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    113,
+    27,
+    127
+   ],
+   "ko": "변경",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    134,
+    88,
+    149
+   ],
+   "ko": "랜덤 선택",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    156,
+    48,
+    171
+   ],
+   "ko": "리플레이",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    178,
+    96,
+    193
+   ],
+   "ko": "팀 데이터 표시",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    200,
+    101,
+    215
+   ],
+   "ko": "어레인지 팀 표시",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    223,
+    85,
+    237
+   ],
+   "ko": "상대 기록",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    245,
+    54,
+    259
+   ],
+   "ko": "취소",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    267,
+    80,
+    281
+   ],
+   "ko": "팀 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    288,
+    92,
+    303
+   ],
+   "ko": "그룹 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    311,
+    28,
+    325
+   ],
+   "ko": "설명",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    333,
+    56,
+    347
+   ],
+   "ko": "선수 이동",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    355,
+    61,
+    369
+   ],
+   "ko": "스크롤",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    376,
+    86,
+    391
+   ],
+   "ko": "페이지 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    399,
+    109,
+    413
+   ],
+   "ko": "능력 표시 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    421,
+    81,
+    435
+   ],
+   "ko": "정보 전환",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    3,
+    443,
+    84,
+    457
+   ],
+   "ko": "필드 정보",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    465,
+    30,
+    479
+   ],
+   "ko": "지우기",
+   "weight": "bold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    487,
+    56,
+    501
+   ],
+   "ko": "정렬",
+   "weight": "bold",
+   "align": "left"
+  }
+ ]
+}

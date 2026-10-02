@@ -1,0 +1,12 @@
+/work/
+*.iso
+*.bin
+*.pack
+*.xdelta
+*.exe
+*.dll
+*.ttf
+*.otf
+*.p2s
+__pycache__/
+*.pyc

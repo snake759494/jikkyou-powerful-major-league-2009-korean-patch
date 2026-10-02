@@ -1,0 +1,126 @@
+{
+ "hash": "82777517992a",
+ "items": [
+  {
+   "box": [
+    1,
+    1,
+    64,
+    14
+   ],
+   "ko": "매뉴얼",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    17,
+    63,
+    30
+   ],
+   "ko": "세미 오토",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    33,
+    37,
+    46
+   ],
+   "ko": "오토",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    64,
+    116,
+    78
+   ],
+   "ko": "컨트롤 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    80,
+    77,
+    95
+   ],
+   "ko": "변화구 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    96,
+    65,
+    111
+   ],
+   "ko": "속구 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    112,
+    65,
+    127
+   ],
+   "ko": "준족 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    128,
+    65,
+    143
+   ],
+   "ko": "교타 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    144,
+    65,
+    159
+   ],
+   "ko": "강타 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    160,
+    65,
+    175
+   ],
+   "ko": "견수 타입",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    176,
+    65,
+    191
+   ],
+   "ko": "만능 타입",
+   "weight": "xbold",
+   "align": "left"
+  }
+ ]
+}

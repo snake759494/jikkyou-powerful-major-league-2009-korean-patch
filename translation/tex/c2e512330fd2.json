@@ -1,0 +1,104 @@
+{
+ "hash": "c2e512330fd2",
+ "items": [
+  {
+   "box": [
+    1,
+    1,
+    62,
+    15
+   ],
+   "ko": "파워풀 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    63,
+    1,
+    128,
+    15
+   ],
+   "ko": "마하 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    17,
+    87,
+    31
+   ],
+   "ko": "머슬 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    33,
+    96,
+    47
+   ],
+   "ko": "싱크탱크 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    1,
+    49,
+    111,
+    63
+   ],
+   "ko": "굿루킹 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    65,
+    119,
+    79
+   ],
+   "ko": "에버빅토리 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    81,
+    86,
+    95
+   ],
+   "ko": "솔저 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    0,
+    97,
+    72,
+    111
+   ],
+   "ko": "톤톤 대학",
+   "weight": "heavy",
+   "align": "left"
+  },
+  {
+   "box": [
+    2,
+    113,
+    127,
+    127
+   ],
+   "ko": "유니버스 유니버시티",
+   "weight": "heavy",
+   "align": "left"
+  }
+ ]
+}

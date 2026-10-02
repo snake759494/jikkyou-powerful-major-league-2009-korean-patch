@@ -1,0 +1,82 @@
+{
+ "hash": "eebd4a2b1a35",
+ "items": [
+  {
+   "box": [
+    16,
+    1,
+    120,
+    15
+   ],
+   "ko": "얼굴을 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    17,
+    145,
+    31
+   ],
+   "ko": "사용 팔을 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    33,
+    158,
+    47
+   ],
+   "ko": "수비 위치를 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    49,
+    158,
+    63
+   ],
+   "ko": "폼을 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    65,
+    170,
+    79
+   ],
+   "ko": "성장 타입을 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    81,
+    170,
+    95
+   ],
+   "ko": "좋아하는 구단을 정하세요",
+   "weight": "xbold",
+   "align": "left"
+  },
+  {
+   "box": [
+    16,
+    97,
+    131,
+    111
+   ],
+   "ko": "이대로 괜찮습니까?",
+   "weight": "xbold",
+   "align": "left"
+  }
+ ]
+}

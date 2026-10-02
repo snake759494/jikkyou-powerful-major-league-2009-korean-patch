@@ -1,0 +1,27 @@
+{
+ "hash": "bb70872669c4",
+ "items": [
+  {
+   "box": [
+    88,
+    0,
+    121,
+    32
+   ],
+   "ko": "한",
+   "weight": "heavy",
+   "mode": "mask"
+  },
+  {
+   "box": [
+    137,
+    0,
+    169,
+    32
+   ],
+   "ko": "국",
+   "weight": "heavy",
+   "mode": "mask"
+  }
+ ]
+}

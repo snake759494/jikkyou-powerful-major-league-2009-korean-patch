@@ -1,0 +1,45 @@
+{
+ "hash": "a44faefd8b11",
+ "items": [
+  {
+   "box": [
+    1,
+    57,
+    122,
+    77
+   ],
+   "ko": "MEMORY CARD 슬롯1",
+   "weight": "xbold"
+  },
+  {
+   "box": [
+    1,
+    79,
+    124,
+    99
+   ],
+   "ko": "MEMORY CARD 슬롯2",
+   "weight": "xbold"
+  },
+  {
+   "box": [
+    150,
+    56,
+    300,
+    75
+   ],
+   "ko": "메모리 카드(PS2)",
+   "weight": "xbold"
+  },
+  {
+   "box": [
+    145,
+    75,
+    314,
+    108
+   ],
+   "ko": "선수 이동",
+   "weight": "heavy"
+  }
+ ]
+}
