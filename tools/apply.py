@@ -59,6 +59,23 @@ def enc(ko, nl):
     if nl == 0xd000: cs = [0xd000 if c == 0x1ffe else c for c in cs]
     return cs
 
+HL = ['선제', '결승', '역전', '끝내기', '안타', '타', '적시타', '홈런', '동점', '수비', '희생', '플라이',
+      '선두타자', '투런', '스리런', '만루', '2루', '3루', '삼진']
+def highlight(b):
+    """경기 하이라이트 자막 낱말표(ELF 0x64c910: 포인터+길이 19개) — 한국어를 새 풀에 넣고 포인터·길이 갱신."""
+    T, POOL, POOL_END, D = 0x64c910, 0x64c880, 0x64c910, 0xFFE80
+    pos = POOL
+    b[POOL:POOL_END] = bytes(POOL_END - POOL)
+    for k, ko in enumerate(HL):
+        cs = kotext.codes(ko)
+        assert pos + 2 * len(cs) + 2 <= POOL_END
+        b[pos:pos + 2 * len(cs)] = struct.pack('<%dH' % len(cs), *cs)
+        struct.pack_into('<II', b, T + 8 * k, pos + D, len(cs))
+        pos += 2 * len(cs) + 2
+    for off, ko in ((0x64c870, '회초'), (0x64c878, '회말')):
+        cs = kotext.codes(ko); b[off:off + 4] = struct.pack('<2H', *cs)
+    return b
+
 class Applier:
     def __init__(self):
         self.units = load_jsonl(os.path.join(ROOT, 'translation', 'units_sel.jsonl'))
@@ -302,6 +319,7 @@ class Applier:
     def elf(self, b):
         import namegrid
         b = bytearray(self.attr(self.inplace(b, 'ELF'), 'ELF'))
+        b = highlight(b)
         # 「○か×ボタン」의 か → 나 (버튼 기호 사이 한 글자)
         if struct.unpack_from('<H', b, 0x66cb92)[0] == 0x124:
             struct.pack_into('<H', b, 0x66cb92, kotext.codes('나')[0])

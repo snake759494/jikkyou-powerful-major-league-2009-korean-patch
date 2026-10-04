@@ -4,7 +4,7 @@ PS2 일본판 **実況パワフルメジャーリーグ2009 (Jikkyou Powerful Ma
 
 [패치 다운로드](https://github.com/snake759494/jikkyou-powerful-major-league-2009-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
-릴리즈 첨부 파일은 **PowerfulMajorLeague2009_PS2_KO_v1.0.xdelta 하나**입니다. 저장소에는 제작 도구·번역 대역표·검증 자료를 공개합니다. 원본 및 완성 ISO, 추출된 게임 바이너리·이미지·음성·영상, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다.
+릴리즈 첨부 파일은 **PowerfulMajorLeague2009_PS2_KO_v1.1.xdelta 하나**입니다. 저장소에는 제작 도구·번역 대역표·검증 자료를 공개합니다. 원본 및 완성 ISO, 추출된 게임 바이너리·이미지·음성·영상, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다.
 
 > `translation/`에는 대사와 선수 소개 등 번역 대역표가 있으므로 **스포일러**가 포함됩니다.
 > 이번 빌드는 ISO 내부 검사와 xdelta 복원 검증을 통과했지만, **새 빌드의 실제 게임 화면 검증은 미완료**입니다. 모든 화면의 가독성이나 전체 진행을 보증하는 완성 검수판은 아닙니다.
@@ -21,10 +21,10 @@ PS2 일본판 **実況パワフルメジャーリーグ2009 (Jikkyou Powerful Ma
 | 원본 ISO SHA-1 | `bfc2f87d8e1f2bb142010d3489b7bd5ba6369537` |
 | 원본 ISO SHA-256 | `452d333097a9fa25b260e4272e6ac5434561e9d9547fca6a05bcb66d9e3328e6` |
 | xdelta 크기 | 14,226,917 바이트 |
-| xdelta SHA-256 | `6fc3b99208a6230f40e79dd426cddaffa4a62aed4964267cffa444c2041a913f` |
+| xdelta SHA-256 | `94f5c0693720b6eea152ba97ec67b0f51137f817cda052b780e11b6e5c96290e` |
 | 결과 ISO 크기 | 2,243,690,496 바이트 |
 | 결과 ISO SHA-1 | `10a8b5f6a01a786e5655b545797275aba80e6413` |
-| 결과 ISO SHA-256 | `21dbfe67e83caad217044fef92aa78813912122974b6c30c957673af9acd9aac` |
+| 결과 ISO SHA-256 | `2d6898219e077c53e53c45fa3e7364198155df167d37858a6abb44f85a0613c9` |
 
 ## 패치 적용 방법
 
@@ -38,7 +38,7 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Jikkyou Powerful Major League 2009 (
 
 ### xdelta UI 사용
 
-1. 릴리즈에서 `PowerfulMajorLeague2009_PS2_KO_v1.0.xdelta`를 받습니다.
+1. 릴리즈에서 `PowerfulMajorLeague2009_PS2_KO_v1.1.xdelta`를 받습니다.
 2. xdelta3 패치를 지원하는 도구의 **Apply Patch**를 엽니다.
 3. **Patch**에 xdelta, **Source File**에 해시가 일치하는 원본 ISO를 선택합니다.
 4. **Output File**에 새 파일명을 지정합니다. 원본 파일을 덮어쓰지 마세요.
@@ -48,13 +48,13 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Jikkyou Powerful Major League 2009 (
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -s '.\Jikkyou Powerful Major League 2009 (Japan).iso' '.\PowerfulMajorLeague2009_PS2_KO_v1.0.xdelta' '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
+.\xdelta3.exe -d -s '.\Jikkyou Powerful Major League 2009 (Japan).iso' '.\PowerfulMajorLeague2009_PS2_KO_v1.1.xdelta' '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
 ```
 
 해시 자동 검사 적용기(Python 3 + xdelta3, 기존 출력 파일 덮어쓰기 금지):
 
 ```powershell
-python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerful Major League 2009 (Japan).iso' --patch .\PowerfulMajorLeague2009_PS2_KO_v1.0.xdelta --output '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
+python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerful Major League 2009 (Japan).iso' --patch .\PowerfulMajorLeague2009_PS2_KO_v1.1.xdelta --output '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
 ```
 
 ### PCSX2에서 실행
