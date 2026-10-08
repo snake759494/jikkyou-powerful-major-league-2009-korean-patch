@@ -16,7 +16,7 @@ PATCH = [(0x001315fc, 0x3c024455, 0x3c024420), (0x00131600, 0x34425555, 0x448208
 def elf_crc(b):
     return int(np.bitwise_xor.reduce(np.frombuffer(b[:len(b) // 4 * 4], '<u4')))
 
-def main(path):
+def main(path, crc=None):
     files = {p: (l, s) for p, l, s, r in iso.walk(path)}
     lba, size = files['SLPM_551.55']
     with open(path, 'rb') as f:
@@ -24,10 +24,10 @@ def main(path):
     for a, new, old in PATCH:
         cur = struct.unpack_from('<I', elf, a - D)[0]
         assert cur == old, 'code mismatch at %08x: %08x' % (a, cur)
-    crc = elf_crc(elf)
-    lines = ['gametitle=Jikkyou Powerful Major League 2009 (J)(SLPM-55155) [Korean patch]',
-             '', '// 16:9 widescreen - ported from PCSX2 patch DB (SLPM-55155_3E8C9B7D, author Arapapa)',
-             'gsaspectratio=16:9', '']
+    crc = crc if crc is not None else elf_crc(elf)
+    lines = ['gametitle=Jikkyou Powerful Major League 2009 (J)(SLPM-55155) [Korean patch]', '',
+             '[Widescreen 16:9]', 'gsaspectratio=16:9', 'author=Arapapa (ported to Korean patch)',
+             'description=16:9 widescreen. Ported from PCSX2 patch DB SLPM-55155_3E8C9B7D.', '']
     lines += ['patch=1,EE,%08x,word,%08x //%08x' % p for p in PATCH]
     os.makedirs(os.path.join(ROOT, 'widescreen'), exist_ok=True)
     out = os.path.join(ROOT, 'widescreen', 'SLPM-55155_%08X.pnach' % crc)
