@@ -96,3 +96,13 @@ python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerfu
 | `release_manifest.json` | 배포 파일과 원본·결과 해시 |
 
 오역·잘림 신고에는 모드, 화면 위치, 스크린샷, 사용한 패치 버전과 새 부팅 여부를 함께 남겨 주세요.
+
+
+## 16:9 와이드 화면 (PCSX2)
+
+PCSX2 패치 DB에 원본판용 와이드 패치(SLPM-55155_3E8C9B7D, 작성자 Arapapa)가 있지만, 한글판은 실행 파일 문자열이 바뀌어 CRC가 달라 자동으로 적용되지 않습니다. 코드 주소가 같은 것을 확인하고 한글판 CRC로 옮긴 파일을 제공합니다.
+
+1. widescreen/SLPM-55155_3E64139F.pnach를 PCSX2의 patches 폴더에 복사합니다.
+2. PCSX2 설정에서 패치 사용(EnablePatches)이 켜져 있는지 확인하고 게임을 새로 부팅합니다.
+
+경기 화면 시야가 16:9로 넓어지고 화면 비율이 16:9로 바뀝니다. 다른 버전의 한글판 ISO에 쓰려면 python tools/widescreen.py <한글판 ISO>로 해당 CRC 파일을 다시 만드세요.
