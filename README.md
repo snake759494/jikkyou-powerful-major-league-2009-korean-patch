@@ -1,10 +1,10 @@
 # 실황 파워풀 메이저리그 2009 PS2 한글패치
 
-PS2 일본판 **実況パワフルメジャーリーグ2009 (Jikkyou Powerful Major League 2009, SLPM-55155)** 용 비공식 한국어 패치입니다. 메뉴·도움말·대사·선수 이름·이름 입력·이미지 글자를 한글화한 기존 작업에 HUD와 선수 정보 이미지 개선을 반영했습니다. 현재 배포판은 **v1.2 (2026-10-25)** 입니다.
+PS2 일본판 **実況パワフルメジャーリーグ2009 (Jikkyou Powerful Major League 2009, SLPM-55155)** 용 비공식 한국어 패치입니다. 메뉴·도움말·대사·선수 이름·이름 입력·이미지 글자를 한글화한 기존 작업에 HUD와 선수 정보 이미지 개선을 반영했습니다. 현재 배포판은 **v1.3 (2026-10-26)** 입니다.
 
 [패치 다운로드](https://github.com/snake759494/jikkyou-powerful-major-league-2009-korean-patch/releases/latest) · [기술 설명](docs/TECHNICAL.md) · [재빌드](docs/BUILD.md) · [변경 기록](CHANGELOG.md) · [권리 안내](RIGHTS.md)
 
-릴리즈 첨부 파일은 **PowerfulMajorLeague2009_PS2_KO_v1.2.xdelta 하나**입니다. 저장소에는 제작 도구·번역 대역표·검증 자료를 공개합니다. 원본 및 완성 ISO, 추출된 게임 바이너리·이미지·음성·영상, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다.
+릴리즈 첨부 파일은 **PowerfulMajorLeague2009_PS2_KO_v1.3.xdelta 하나**입니다. 저장소에는 제작 도구·번역 대역표·검증 자료를 공개합니다. 원본 및 완성 ISO, 추출된 게임 바이너리·이미지·음성·영상, 글꼴 파일, 외부 실행 파일은 포함하지 않습니다.
 
 > `translation/`에는 대사와 선수 소개 등 번역 대역표가 있으므로 **스포일러**가 포함됩니다.
 > 이번 빌드는 ISO 내부 검사와 xdelta 복원 검증을 통과했지만, **새 빌드의 실제 게임 화면 검증은 미완료**입니다. 모든 화면의 가독성이나 전체 진행을 보증하는 완성 검수판은 아닙니다.
@@ -20,11 +20,11 @@ PS2 일본판 **実況パワフルメジャーリーグ2009 (Jikkyou Powerful Ma
 | **원본 ISO MD5** | `829d72b0c23e934438f5114135736441` |
 | 원본 ISO SHA-1 | `bfc2f87d8e1f2bb142010d3489b7bd5ba6369537` |
 | 원본 ISO SHA-256 | `452d333097a9fa25b260e4272e6ac5434561e9d9547fca6a05bcb66d9e3328e6` |
-| xdelta 크기 | 14,228,096 바이트 |
-| xdelta SHA-256 | `cb122b0ef10a4a4178c7f1633281703a78906f57d8c59a26ab28c33941dc25c7` |
+| xdelta 크기 | 14,354,002 바이트 |
+| xdelta SHA-256 | `6fc842cc560fa6e9f3699ce81d8fe9d2f4a5944a9ffb31e6d18dad0e962857df` |
 | 결과 ISO 크기 | 2,243,690,496 바이트 |
-| 결과 ISO SHA-1 | `01a721f4deaccfdead05e076fba9a2779b70a3f2` |
-| 결과 ISO SHA-256 | `d2ff1d344521f24687fff144636cbd95a1b670ef43e82b621e9a0a27ec80ad9f` |
+| 결과 ISO SHA-1 | `76f14eb39968cc76e4bfc30aded7f57b0a83a778` |
+| 결과 ISO SHA-256 | `eea14b15ef9b77c45d1b795867d022bdae72ecf987e5117f68c426c7d62f6529` |
 
 ## 패치 적용 방법
 
@@ -38,7 +38,7 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Jikkyou Powerful Major League 2009 (
 
 ### xdelta UI 사용
 
-1. 릴리즈에서 `PowerfulMajorLeague2009_PS2_KO_v1.2.xdelta`를 받습니다.
+1. 릴리즈에서 `PowerfulMajorLeague2009_PS2_KO_v1.3.xdelta`를 받습니다.
 2. xdelta3 패치를 지원하는 도구의 **Apply Patch**를 엽니다.
 3. **Patch**에 xdelta, **Source File**에 해시가 일치하는 원본 ISO를 선택합니다.
 4. **Output File**에 새 파일명을 지정합니다. 원본 파일을 덮어쓰지 마세요.
@@ -48,13 +48,13 @@ Get-FileHash -Algorithm MD5 -LiteralPath '.\Jikkyou Powerful Major League 2009 (
 ### 명령줄 사용
 
 ```powershell
-.\xdelta3.exe -d -s '.\Jikkyou Powerful Major League 2009 (Japan).iso' '.\PowerfulMajorLeague2009_PS2_KO_v1.2.xdelta' '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
+.\xdelta3.exe -d -s '.\Jikkyou Powerful Major League 2009 (Japan).iso' '.\PowerfulMajorLeague2009_PS2_KO_v1.3.xdelta' '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
 ```
 
 해시 자동 검사 적용기(Python 3 + xdelta3, 기존 출력 파일 덮어쓰기 금지):
 
 ```powershell
-python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerful Major League 2009 (Japan).iso' --patch .\PowerfulMajorLeague2009_PS2_KO_v1.2.xdelta --output '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
+python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerful Major League 2009 (Japan).iso' --patch .\PowerfulMajorLeague2009_PS2_KO_v1.3.xdelta --output '.\Jikkyou Powerful Major League 2009 (Japan) (Korean).iso'
 ```
 
 ### PCSX2에서 실행
@@ -102,7 +102,7 @@ python tools/apply_release.py --xdelta .\xdelta3.exe --source '.\Jikkyou Powerfu
 
 PCSX2 패치 DB에 원본판용 와이드 패치(SLPM-55155_3E8C9B7D, 작성자 Arapapa)가 있지만, 한글판은 실행 파일 문자열이 바뀌어 CRC가 달라 자동으로 적용되지 않습니다. 코드 주소가 같은 것을 확인하고 한글판 CRC로 옮긴 파일을 제공합니다.
 
-1. widescreen/SLPM-55155_1B3C58B5.pnach(v1.2 한글판용)를 PCSX2의 patches 폴더에 복사합니다.
+1. widescreen/SLPM-55155_1B54ABB2.pnach(v1.3 한글판용)를 PCSX2의 patches 폴더에 복사합니다.
 2. PCSX2에서 게임 속성(우클릭) → 패치 탭에서 **Widescreen 16:9** 항목을 체크하고 게임을 새로 부팅합니다.
 
 경기 화면 시야가 16:9로 넓어지고 화면 비율이 16:9로 바뀝니다. 다른 버전의 한글판 ISO에 쓰려면 python tools/widescreen.py <한글판 ISO>로 해당 CRC 파일을 다시 만드세요.

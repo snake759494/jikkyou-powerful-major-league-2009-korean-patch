@@ -77,6 +77,23 @@ def highlight(b):
     # 先制打 등의 접미 한 글자(u32 코드 배열: 打·犠·飛) — 게임이 직접 읽음
     for off, ko in ((0x7256e0, '타'), (0x7256e4, '희'), (0x7256e8, '비')):
         struct.pack_into('<I', b, off, kotext.codes(ko)[0])
+    # 플레이어 오브 더 게임 자막의 한 글자 접미(「　　　打」「　　弾」) — 한 글자라 번역 단위에서 빠짐
+    for off, ko in ((0x655770, '타'), (0x655778, '포')):
+        struct.pack_into('<H', b, off, kotext.codes(ko)[0])
+    # 수치 태그(＜＊…＞)가 든 메모리카드·HDD 문구 — 태그 코드는 그대로 두고 앞뒤만 번역 (길이 이내, 0xFFFF 끝)
+    TAGGED = [(0x66e440, '', 'ＫＢ 이상의 공간이 필요합니다.'), (0x66e4a2, '', 'ＫＢ 이상의 공간이 필요합니다.'),
+              (0x66e518, '', 'ＫＢ 이상의 공간이 필요합니다.'), (0x66e59c, '', 'ＫＢ 이상의 공간이 필요합니다.'),
+              (0x66f07e, '', 'ＭＢ 이상 필요'), (0x66f10a, '설치하려면', 'ＭＢ 이상 필요'),
+              (0x66f272, '필요 용량：', 'ＭＢ'), (0x66f2a6, '남은 용량：', 'ＭＢ')]
+    for off, pre, post in TAGGED:
+        n = b.index(b'\xff\xff', off) - off; n -= n % 2
+        cs = list(struct.unpack('<%dH' % (n // 2), b[off:off + n]))
+        sp = kotext.codes('　')[0]; lead = 0
+        while cs[lead] == sp: lead += 1
+        t0 = cs.index(kotext.codes('＜')[0]); t1 = cs.index(kotext.codes('＞')[0]) + 1
+        new = cs[:lead] + kotext.codes(pre) + cs[t0:t1] + kotext.codes(post)
+        assert len(new) <= len(cs), (hex(off), len(new), len(cs))
+        b[off:off + 2 * len(new) + 2] = struct.pack('<%dH' % len(new), *new) + b'\xff\xff'
     import pitchnames; pitchnames.elf(b)  # HUD 구종명
     return b
 

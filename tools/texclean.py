@@ -575,6 +575,49 @@ def snap_box(orig, pal, box, bgi):
     if ua <= 0 or ix / ua < 0.6: return box
     return nb
 
+def clean_residue(idx, pal, orig, items, bgi, R=6):
+    """상자 밖으로 삐져나온 원래 글자 조각 지우기: 원래 글자 채움색 덩어리 중 상자에 걸치고 상자+R 안에 갇힌 것의
+    상자 밖 부분(+테두리 2px)을 주변 바탕으로 메움(투명 바탕이면 투명)."""
+    if os.environ.get('NORES'): return
+    H, W = idx.shape
+    O = pal[orig].astype(np.float32)
+    cover = np.zeros((H, W), bool)
+    for it in items:
+        if it.get('ko') is not None:
+            x0, y0, x1, y1 = it['box']; cover[y0:y1, x0:x1] = True
+    kill = np.zeros((H, W), bool)
+    for it in items:
+        if it.get('ko') is None or it.get('nores'): continue
+        box = tuple(it['box']); x0, y0, x1, y1 = box
+        try: A = analyse(orig, pal, shrink_to_text(orig, pal, box), bgi)
+        except Exception: continue
+        if not A or A.get('fill') is None: continue
+        fill = np.array(A['fill'][:3], np.float32)
+        xa, ya, xb, yb = max(0, x0 - R), max(0, y0 - R), min(W, x1 + R), min(H, y1 + R)
+        ring = np.zeros((H, W), bool); ring[ya:yb, xa:xb] = True; ring &= ~cover
+        of = (np.abs(O[..., :3] - fill).sum(-1) < 60) & (O[..., 3] > 40)
+        lab, n = ndimage.label(of, np.ones((3, 3)))
+        keep = set(np.unique(lab[y0:y1, x0:x1][of[y0:y1, x0:x1]]).tolist()) - {0}
+        res = np.zeros((H, W), bool)
+        for c, sl in enumerate(ndimage.find_objects(lab), 1):
+            if c not in keep or sl is None: continue
+            if sl[0].start < ya or sl[0].stop > yb or sl[1].start < xa or sl[1].stop > xb: continue
+            res |= (lab == c) & ring
+        if res.sum() < 8: continue
+        kill |= ndimage.binary_dilation(res, iterations=2) & ring
+    if not kill.any(): return
+    cur = pal[idx].astype(np.float32)
+    near = ndimage.binary_dilation(kill, iterations=3) & ~kill & ~cover
+    if near.any() and (cur[near][:, 3] < 8).mean() > 0.5:
+        idx[kill] = bgi; return
+    m = kill.astype(np.uint8) * 255
+    img = np.clip(cur, 0, 255).astype(np.uint8)
+    rec = np.dstack([cv2.inpaint(np.ascontiguousarray(img[..., :3]), m, 3, cv2.INPAINT_TELEA),
+                     cv2.inpaint(np.ascontiguousarray(img[..., 3]), m, 3, cv2.INPAINT_TELEA)]).astype(np.float32)
+    used = set(np.unique(idx[near]).tolist()) if near.any() else None
+    q = texedit.quantize(rec[kill][None], pal, used)[0]
+    idx[kill] = q
+
 def paint_all(idx, pal, orig, items, bgi):
     """같은 텍스처 안에서 원래 상자 높이가 같은 항목끼리 글자 높이·색을 통일."""
     import collections
@@ -616,3 +659,4 @@ def paint_all(idx, pal, orig, items, bgi):
                 it2['fill'] = [float(x) for x in fm]
                 it2['outline'] = [float(x) for x in om]
         paint(idx, pal, orig, it['box'], it['ko'], bgi, it2)
+    clean_residue(idx, pal, orig, items2, bgi)
