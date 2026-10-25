@@ -1,10 +1,10 @@
 {
-  "version": "v1.1",
-  "date": "2026-10-04",
+  "version": "v1.2",
+  "date": "2026-10-25",
   "game": "Jikkyou Powerful Major League 2009 (Japan)",
   "platform": "PS2",
   "serial": "SLPM-55155",
-  "asset": "PowerfulMajorLeague2009_PS2_KO_v1.1.xdelta",
+  "asset": "PowerfulMajorLeague2009_PS2_KO_v1.2.xdelta",
   "xdelta_options": "xdelta3 3.1.0 -e -9 -S none -A",
   "source": {
     "bytes": 2243690496,
@@ -14,15 +14,15 @@
   },
   "output": {
     "bytes": 2243690496,
-    "md5": "d1b4ade3dc9621176f174c348d4828e0",
-    "sha1": "ee33d8e57fa07bad91243de3b9e63024dd085f87",
-    "sha256": "2d6898219e077c53e53c45fa3e7364198155df167d37858a6abb44f85a0613c9"
+    "md5": "1dabdf9bc3ea9c377422f2273dd396a1",
+    "sha1": "01a721f4deaccfdead05e076fba9a2779b70a3f2",
+    "sha256": "d2ff1d344521f24687fff144636cbd95a1b670ef43e82b621e9a0a27ec80ad9f"
   },
   "patch": {
-    "bytes": 14227128,
-    "md5": "1d80b698cdaf01261aaf28a7b10f876c",
-    "sha1": "4849c82f299ee7cd70fbbec4526ec52c79c25486",
-    "sha256": "94f5c0693720b6eea152ba97ec67b0f51137f817cda052b780e11b6e5c96290e"
+    "bytes": 14228096,
+    "md5": "2617d58bca094abff2c304394b0c2ef3",
+    "sha1": "8c09e8c132eec828339f814e90ee9649fcfff541",
+    "sha256": "cb122b0ef10a4a4178c7f1633281703a78906f57d8c59a26ab28c33941dc25c7"
   },
   "runtime_verified": false
 }

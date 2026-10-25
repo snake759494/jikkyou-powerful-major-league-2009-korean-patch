@@ -8,8 +8,9 @@
     128,
     28
    ],
-   "ko": "넥스트 배",
-   "weight": "heavy"
+   "ko": "넥스트배",
+   "weight": "heavy",
+   "align": "right"
   },
   {
    "box": [
@@ -19,7 +20,8 @@
     53
    ],
    "ko": "터",
-   "weight": "heavy"
+   "weight": "heavy",
+   "align": "left"
   }
  ]
 }

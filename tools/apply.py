@@ -74,6 +74,10 @@ def highlight(b):
         pos += 2 * len(cs) + 2
     for off, ko in ((0x64c870, '회초'), (0x64c878, '회말')):
         cs = kotext.codes(ko); b[off:off + 4] = struct.pack('<2H', *cs)
+    # 先制打 등의 접미 한 글자(u32 코드 배열: 打·犠·飛) — 게임이 직접 읽음
+    for off, ko in ((0x7256e0, '타'), (0x7256e4, '희'), (0x7256e8, '비')):
+        struct.pack_into('<I', b, off, kotext.codes(ko)[0])
+    import pitchnames; pitchnames.elf(b)  # HUD 구종명
     return b
 
 class Applier:

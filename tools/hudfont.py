@@ -12,6 +12,8 @@ K = ('아이우에오카키크케코사시스세소타치츠테트나니누네�
      '가기그게고자지즈제조다지즈데도바비부베보파피프페포아이우에오야유요ㅅ부')
 MAP = {13 + i: ch for i, ch in enumerate(K)}
 MAP[122] = '-'
+import pitchnames
+MAP.update(pitchnames.cells())  # 구종명 전용 음절
 def cell_img(ch):
     S = 8
     f = ImageFont.truetype(os.path.join(ROOT, 'NanumSquareNeo-eHv.ttf'), 13 * S)
